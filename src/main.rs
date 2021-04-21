@@ -1,3 +1,9 @@
+mod get_duration;
+mod loop_notifications;
+
 fn main() {
-	println!("{:?}", "hello world");
+	
+	let duration = get_duration::get_duration();
+	loop_notifications::navigate(duration);
+	
 }
