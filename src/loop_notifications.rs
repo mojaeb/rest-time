@@ -13,5 +13,6 @@ pub fn navigate(duration: u64) {
 	        .duration(ToasDuration::Short)
 	        .show()
 	        .expect("unable to toast");
+	    println!("Relax and do stretching exercises");
 	}
 }
